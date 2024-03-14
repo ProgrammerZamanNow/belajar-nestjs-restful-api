@@ -15,3 +15,8 @@ export class CreateAddressRequest {
   country: string;
   postal_code: string;
 }
+
+export class GetAddressRequest {
+  contact_id: number;
+  address_id: number;
+}
